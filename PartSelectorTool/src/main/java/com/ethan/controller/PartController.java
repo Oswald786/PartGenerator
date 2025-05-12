@@ -8,17 +8,16 @@ import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.Post;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
-@Controller("/v1")
+@Controller("/v1Part")
 
-public class MyController {
+public class PartController {
 
     private BettingLogic bettingLogic;
 
-    public MyController(BettingLogic bettingLogic) {
+    public PartController(BettingLogic bettingLogic) {
         this.bettingLogic = bettingLogic;
     }
 
