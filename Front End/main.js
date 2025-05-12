@@ -5,7 +5,7 @@ async function getPrize(){
     try{
         console.log(typeof(fundsToUse))
         console.log("packaged respo0nse is" + fundsToUse)
-        const url = "http://localhost:8080/v1/PcPart"
+        const url = "http://localhost:8080/v1Part/PcPart"
          let response = await fetch(url,
             {
                 headers: {
