@@ -5,9 +5,9 @@ import io.micronaut.serde.annotation.Serdeable;
 @Serdeable
 public class PcPart {
 
-    public PcPart(String partName, int cost, String partCatagory,String partTier) {
+    public PcPart(String partName, int msrp, String partCatagory,String partTier) {
         this.partName = partName;
-        this.msrp = cost;
+        this.msrp = msrp;
         this.partCatagory = partCatagory;
         this.partTier = partTier;
     }
