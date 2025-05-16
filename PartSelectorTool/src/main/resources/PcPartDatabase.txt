@@ -1,0 +1,25 @@
+Intel Core i3-13100,120,CPU,low  
+NVIDIA GTX 1650,160,GPU,low  
+Kingston Fury 16GB DDR4,45,RAM,low  
+Crucial P3 500GB NVMe SSD,40,Storage,low  
+MSI B660M PRO-VDH WiFi,110,Motherboard,low  
+Cooler Master MasterBox Q300L,65,Case,low  
+AMD Ryzen 5 7600,230,CPU,mid  
+NVIDIA RTX 4060,300,GPU,mid  
+Corsair Vengeance 32GB DDR5,110,RAM,mid  
+Samsung 980 1TB NVMe SSD,80,Storage,mid  
+ASUS TUF Gaming B650-PLUS,190,Motherboard,mid  
+NZXT H510 Flow,80,Case,mid  
+Intel Core i7-14700K,400,CPU,high  
+NVIDIA RTX 4070 Ti Super,800,GPU,high  
+G.SKILL Trident Z5 32GB DDR5,150,RAM,high  
+WD Black SN850X 2TB NVMe SSD,160,Storage,high  
+ASUS ROG Strix Z790-E,400,Motherboard,high  
+Fractal Design Meshify 2,150,Case,high  
+AMD Ryzen 9 7950X3D,620,CPU,legendary  
+NVIDIA RTX 4090,1600,GPU,legendary  
+Corsair Dominator Titanium 64GB DDR5,300,RAM,legendary  
+Sabrent Rocket 4 Plus 4TB NVMe SSD,400,Storage,legendary  
+ASUS ROG Crosshair X670E Hero,700,Motherboard,legendary  
+Lian Li PC-O11 Dynamic XL,230,Case,legendary  
+ASUS Strix,599,GPU,legendary  
