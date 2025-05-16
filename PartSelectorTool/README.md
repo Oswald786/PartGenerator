@@ -18,4 +18,7 @@
 
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
 
-
+-instructions
+To add a container of parts go to resources container file and add a container one line has capacity for one container name
+To add a pc part go to pc part and add the part details part name,msrp,part catagory,part tier
+Adjust the path based on user device and where these txt files are stored
