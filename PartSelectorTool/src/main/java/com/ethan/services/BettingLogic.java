@@ -18,6 +18,7 @@ public class BettingLogic {
 
         if (formattedBet <= 500) {
             List<PcPart> low = partContainerManager.getContainer("lowTierContainer").getContainerContents();
+            System.out.println("parts retrived" + low.size());
             return low.get(generateRandomItemNumber(low));
         } else if (formattedBet <= 1000) {
             List<PcPart> mid = partContainerManager.getContainer("midTierContainer").getContainerContents();
