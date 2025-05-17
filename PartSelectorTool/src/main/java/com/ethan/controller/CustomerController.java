@@ -15,7 +15,7 @@ public class CustomerController {
     @Post("/PlaceOrder")
     public void placeOrder(@Body CustomerOrder order){
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter( order.getSurname() + "Order.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter( order.getSurname() + "-Order.txt"));
             writer.write("customer name: " + order.getForename() + " " + order.getSurname());
             writer.write("\ncustomer Age: " + order.getAge());
             writer.write("\ncustomer delivery address: " + order.getFullAddress());
