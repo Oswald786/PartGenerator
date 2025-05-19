@@ -30,6 +30,8 @@ async function getPrize(){
     }catch{
         alert("fetch request failed");
         console.log("error in fetch request")
+        response.console.error();
+        
 
     }
 
@@ -83,29 +85,6 @@ console.log(prizeValue);
 console.log(prizeType);
 console.log(prizeTier);
 
-//     forename = document.getElementById("customerForename").value
-//     Surname = document.getElementById("customerSurname").value
-//     Age = document.getElementById("customerAge").value
-//     Address = retriveFullAddress()
-//     mobile = document.getElementById("customerMobile").value
-//     prizeName = document.getElementById("partName").value
-//     prizeValue = document.getElementById("msrp").value
-//     prizeType = document.getElementById("partCatagory").value
-//     prizeTier = document.getElementById("partTier").value
-
-//     console.log(document.getElementById("customerForename").value);
-// console.log(document.getElementById("customerSurname").value);
-// console.log(document.getElementById("customerAge").value);
-// console.log(retriveFullAddress())
-// console.log(document.getElementById("customerMobile").value);
-// console.log(document.getElementById("partName").value);
-// console.log(document.getElementById("msrp").value);
-// console.log(document.getElementById("partCatagory").value);
-// console.log(document.getElementById("partTier").value);
-
-
-
-    
     try{
         const url = "http://localhost:8080/v1Customer/PlaceOrder"
          let response = await fetch(url,
@@ -116,9 +95,9 @@ console.log(prizeTier);
                 method: "POST",
                 body: JSON.stringify({
                  "forename": forename,
-                 "age": Age,
-                 "surname": Surname,
-                "fullAddress": Address,
+                 "age": age,
+                 "surname": surname,
+                "fullAddress": address,
                 "mobileNumber": mobile,
                 "partOrdered":{
                     "partName": prizeName,
@@ -133,6 +112,7 @@ console.log(prizeTier);
     }catch{
         alert("fetch request failed");
         console.log("error in fetch request")
+        console.log("")
 
     }
 
