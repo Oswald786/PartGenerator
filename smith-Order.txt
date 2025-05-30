@@ -1,0 +1,8 @@
+customer name: Ethan smith
+customer Age: 21
+customer delivery address:  49 bullfinch road  
+customer mobile: 0799452567
+Part ordered name: NVIDIA RTX 4070 Ti Super
+Part msrp: 800
+Part Catagory: GPU
+Part Tier: high
