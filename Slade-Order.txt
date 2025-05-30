@@ -1,0 +1,8 @@
+customer name: Ethan Slade
+customer Age: 21
+customer delivery address:  49 bullfinch road  
+customer mobile: 0799452567
+Part ordered name: G.SKILL Trident Z5 32GB DDR5
+Part msrp: 150
+Part Catagory: RAM
+Part Tier: high

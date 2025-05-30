@@ -7,22 +7,25 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-      
-        <div class="responseStyling" id="responseResult">
-            <div>
+            <div class="headerMain">
                 <h1>Place your bets find out what you can buy in the pc lucky dip?</h1>
             </div>
           <!---code for the response json package will go here and all kinds of styling will also go here.-->
+          <div class="userInterface">
+
+          <div class="luckyDipBetSection">
           <input type="number" id="betPlaced" max="3000" >enter your bet</input>
           <button id="drawButton">Click for draw</button>
-          <div>
+          <div class="partWon">
             <h2>Part won</h2>
             <p id="partName"></p>
             <p id="msrp"></p>
             <p id="partCatagory"></p>
             <p id="partTier"></p>
           </div>
-          <div id="orderPlacement">
+          </div>
+
+          <div class="orderPlacement" id="orderPlacement">
             <!--customer identification info below-->
             <label>Enter forename below</label>
             <input type="text" id="customerForename">
@@ -42,7 +45,7 @@
             <input type="text" id="customerMobile">
             <input type="button" value="Order part" id="orderButton">
            </div>
-        </div>
+           </div>
 
     </body>
 </html>

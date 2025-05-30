@@ -4,3 +4,40 @@
     align-items: center;
     justify-content: baseline;
 }
+
+body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/yItsia3_HV5hz-LnrgeAJNUa38TGgefva0lOeDVjhit72aaKGQ4bB-lPTPUnzqYcqOype7hNjaB6BUPkjhjTt7T5W-iK6sVP4bSw1_u3fzqzx5vXTA=w1200-h630-p-k-no-nu);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 20px;
+    
+}
+.headerMain{
+    background-color: blue;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 25px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.userInterface{
+    display: flex;
+    align-items: flex-start;
+    margin:25px 20pc 20px ;
+    width: 80pc;
+    justify-content: space-between;
+    background-image: linear-gradient(65deg,#E9F1FA, #00ABE4 ,#FFFFFF);
+    box-shadow: -51px 25px rgb(20, 20, 20) ;
+}
+.luckyDipBetSection{
+    width: 50%;
+    padding: 10px;
+}
+.orderPlacement{
+    width: 50pc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}

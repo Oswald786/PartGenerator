@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ApiProject.iml" filepath="$PROJECT_DIR$/.idea/ApiProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GpuSelectorTool.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GpuSelectorTool.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GpuSelectorTool.test.iml" filepath="$PROJECT_DIR$/.idea/modules/GpuSelectorTool.test.iml" />
+    </modules>
+  </component>
+</project>
